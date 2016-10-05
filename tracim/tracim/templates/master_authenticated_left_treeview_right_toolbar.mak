@@ -10,9 +10,9 @@
 <%def name="content_wrapper()">
     <div class="container-fluid">
         <div class="row-fluid">
-        
+
             ## SIDEBAR LEFT
-            <div id="sidebar-left" class="fixed-width-sidebar col-sm-3 sidebar" >
+            <div id="sidebar-left" class="bg-primary fixed-width-sidebar col-sm-3 sidebar" >
                 <div class="btn-group" style="position: absolute; right: 2px; top: 4px; ">
                     <button id="toggle-left-sidebar-width" type="button" class="btn btn-link"><i class="fa fa-angle-double-right"></i></button>
                 </div>
@@ -21,11 +21,11 @@
             ## SIDEBAR LEFT [END]
 
             ## SIDEBAR RIGHT
-            <div id="sidebar-right" class="col-sm-2 col-md-2 col-sm-offset-10 sidebar">
+            <div id="sidebar-right" class="bg-secondary col-sm-2 col-md-2 col-sm-offset-10 sidebar">
                 ${self.SIDEBAR_RIGHT_CONTENT()}
             </div> <!-- # End of side bar right -->
             ## SIDEBAR RIGHT [END]
-            
+
             <div>
                 ${self.TITLE_ROW()}
                 ${self.body()}
@@ -33,7 +33,7 @@
         </div>
     </div>
     ${self.REQUIRED_DIALOGS()}
-    
+
     ###########################################
     ##
     ## GENERIC STUFF LIKE SCRIPTS
@@ -50,7 +50,7 @@
               if (sidebar.hasClass('fixed-width-sidebar')) {
                 sidebar.removeClass('fixed-width-sidebar')
                 sidebar.removeClass('col-sm-3');
-                
+
                 buttonIcon.removeClass('fa-angle-double-right');
                 buttonIcon.addClass('fa-angle-double-left');
               } else {

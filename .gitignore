@@ -62,3 +62,7 @@ development.ini
 track.js
 # Temporary files
 *~
+
+# Node
+tracim/node_modules/
+tracim/tracim/public/assets/dist

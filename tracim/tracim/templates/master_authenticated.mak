@@ -10,9 +10,11 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="icon" href="../../favicon.ico">
-        <link href="${tg.url('/assets/css/bootstrap.min.css')}" rel="stylesheet">
+
+        <!--link href="${tg.url('/assets/css/bootstrap.min.css')}" rel="stylesheet">
         <link href="${tg.url('/assets/css/dashboard.css')}" rel="stylesheet">
-        <link href="${tg.url('/assets/font-awesome-4.2.0/css/font-awesome.css')}" rel="stylesheet">
+        <link href="${tg.url('/assets/font-awesome-4.2.0/css/font-awesome.css')}" rel="stylesheet"-->
+        <link href="${tg.url('/assets/dist/all.css')}" rel="stylesheet">
 
         <script>
             var shiftWindow = function() { scrollBy(0, -50) };
@@ -56,7 +58,7 @@
             copyright &copy; 2013 - ${h.current_year()} tracim project.
         </p>
     </div>
-    
+
     <script type="text/javascript">
         $(function () {
             $("[rel='tooltip']").tooltip();
@@ -66,7 +68,7 @@
 
 
 <%def name="main_menu()">
-    <div class="navbar navbar-fixed-top" role="navigation">
+    <div class="bg-primary navbar navbar-fixed-top" role="navigation">
         ${TIM.FLASH_MSG('col-sm-7 col-sm-offset-3')}
 ##
 ##         <div class="row" id="flashgordon">

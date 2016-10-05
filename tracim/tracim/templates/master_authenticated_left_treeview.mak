@@ -24,7 +24,7 @@
 <%def name="content_wrapper()">
     <div class="container-fluid">
         <div class="row-fluid">
-        
+
             ## SIDEBAR LEFT
             <div id="sidebar-left" class="fixed-width-sidebar col-sm-3 sidebar" >
                 <div class="btn-group" style="position: absolute; right: 2px; top: 4px; ">
@@ -48,7 +48,7 @@
         </div>
     </div>
     ${self.REQUIRED_DIALOGS()}
-    
+
     ###########################################
     ##
     ## GENERIC STUFF LIKE SCRIPTS
@@ -65,7 +65,7 @@
               if (sidebar.hasClass('fixed-width-sidebar')) {
                 sidebar.removeClass('fixed-width-sidebar')
                 sidebar.removeClass('col-sm-3');
-                
+
                 buttonIcon.removeClass('fa-angle-double-right');
                 buttonIcon.addClass('fa-angle-double-left');
               } else {

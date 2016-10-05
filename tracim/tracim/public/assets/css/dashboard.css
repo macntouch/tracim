@@ -27,8 +27,8 @@ body {
   border-bottom: 0px solid #CCF;
 
 
-  background-color: #555;
-      color: #DDD;
+  /*background-color: #555;
+      color: #DDD;*/
 }
 
 .navbar-fixed-top-transparent {
@@ -67,8 +67,8 @@ body {
     overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
 /*    background-color: #333;
       color: #FFF;*/
-    background-color: #555;
-      color: #DDD;
+    /*background-color: #555;
+      color: #DDD;*/
     border-right: 1px solid #CCC;
 
   }
@@ -77,7 +77,7 @@ body {
 #sidebar-right {
   overflow-x: visible;
   overflow-y: auto;
-    background-color: #F5F5F5;
+    /*background-color: #F5F5F5;*/
     border-left: 1px solid #CCC;
 
 }
